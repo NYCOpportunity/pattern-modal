@@ -1,0 +1,20 @@
+/ Modal
+
+button class='btn' data-js='dialog' data-dialog-lock='true' data-dialog='open' aria-controls='aria-c-modal' aria-expanded='false'
+  | Show Modal
+
+div#aria-c-modal class='o-modal hidden' aria-hidden='true' role='dialog' aria-modal='true' aria-labelledby='aria-lb-modal-header' aria-describedby='aria-db-modal-body' style='background-color: rgba(0,0,0,0.25)'
+  div class='o-modal__layout'
+
+    div class='o-modal__body animated fadeInUp'
+      div class='justify-end'
+        button class='' data-js='dialog' aria-controls='aria-c-modal' data-dialog='close' aria-expanded='false'
+          svg class='icon-ui' tabindex='-1'
+            use xlink:href='#feather-x'
+
+          | Dismiss
+
+      div
+        button class='' data-js='dialog' aria-controls='aria-c-modal' aria-expanded='false' tabindex='-1' Cancel
+
+        button class='' tabindex='-1' Submit

@@ -1,21 +1,21 @@
 {
-  "name": "patterns-component-modal",
+  "name": "pattern-modal",
   "version": "1.0.0",
-  "description": "To instantiate the Modal Object through the <a href=\"{{ this.package.cdn.release }}{{ this.package.version }}{{ this.package.cdn.scripts }}\">global {{ this.package.nice }} script</a> use the following code:",
+  "description": "This method is a wrapper around the Patterns Scripts dialog utility which is included as a dependency of this project. The utility can be imported as an ES module and instantiated separately.",
   "main": "modal.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CityOfNewYork/patterns-component-modal.git"
+    ":url": "git+https://github.com/NYCOpportunity/pattern-modal.git"
   },
   "author": "NYC Opportunity <products@nycopportunity.nyc.gov>",
   "license": "GPL-3.0+",
   "bugs": {
-    "url": "https://github.com/CityOfNewYork/patterns-component-modal/issues"
+    "url": "https://github.com/NYCOpportunity/pattern-modal.git/issues"
   },
-  "homepage": "https://github.com/CityOfNewYork/patterns-component-modal#readme",
+  "homepage": "https://github.com/NYCOpportunity/pattern-modal.git#readme",
   "dependencies": {
     "@nycopportunity/patterns": "^2.6.13"
   }
