@@ -1,0 +1,39 @@
+@import 'modal-tokens';
+
+.o-modal {
+  background-color: var(--o-modal-background-color);
+  z-index: var(--o-modal-z-index);
+  position: fixed;
+  overflow-y: auto;
+  top: var(--o-modal-position-base);
+  bottom: var(--o-modal-position-base);
+  left: var(--o-modal-position-base);
+  right: var(--o-modal-position-base);
+}
+
+.o-modal__layout {
+  padding-left: calc(var(--o-modal-base-padding) * 2);
+  padding-right: calc(var(--o-modal-base-padding) * 2);
+  min-height: var(--o-modal-min-height);
+  display: flex;
+  align-items: center;
+}
+
+.o-modal__body {
+  padding: calc(var(--o-modal-base-padding) * 3);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animated {
+  animation-duration: var(--o-modal-animation-duration);
+  animation-fill-mode: var(--o-modal-animation-fill-mode);
+  animation-timing-function: var(--o-modal-animation-timing-function);
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  -o-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
