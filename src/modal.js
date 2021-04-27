@@ -1,4 +1,4 @@
-import Dialog from '@nycopportunity/pttrn-scripts/src/dialog/dialog';
+import Dialog from './dialog';
 
 class Modal extends Dialog {
   constructor() {

@@ -9,9 +9,6 @@ div#aria-c-modal class='o-modal hidden' aria-hidden='true' role='dialog' aria-mo
     div class='o-modal__body animated fadeInUp'
       div class='justify-end'
         button class='' data-js='dialog' aria-controls='aria-c-modal' data-dialog='close' aria-expanded='false'
-          svg class='icon-ui' tabindex='-1'
-            use xlink:href='#feather-x'
-
           | Dismiss
 
       div
