@@ -16,5 +16,7 @@
     "url": "https://github.com/NYCOpportunity/pattern-modal.git/issues"
   },
   "homepage": "https://github.com/NYCOpportunity/pattern-modal.git#readme",
-  "dependencies": {}
+  "dependencies": {
+    "@nycopportunity/pttrn-scripts": "^1.0.4"
+  }
 }
