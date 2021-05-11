@@ -1,0 +1,20 @@
+/ Modal
+
+button data-js='dialog' data-dialog-lock='true' data-dialog='open' aria-controls='aria-c-modal' aria-expanded='false'
+  | Show Modal
+
+div id='aria-c-modal' class='o-modal hidden' aria-hidden='true' role='dialog' aria-modal='true' aria-labelledby='aria-lb-modal-header' aria-describedby='aria-db-modal-body'
+  div class='o-modal__layout'
+    div class='o-modal__body animated fadeInUp'
+      button data-js='dialog' aria-controls='aria-c-modal' data-dialog='close' aria-expanded='false' tabindex='-1'
+        | Dismiss
+
+      h3 id='aria-lb-modal-header' {{ Your custom modal header }}
+
+      p id='aria-db-modal-body' {{ Your custom modal body }}
+
+      button data-js='dialog' aria-controls='aria-c-modal' aria-expanded='false' tabindex='-1'
+        | Cancel
+
+      button tabindex='-1'
+        | {{ Your custom modal action button }}

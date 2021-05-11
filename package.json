@@ -1,5 +1,5 @@
 {
-  "name": "pattern-modal",
+  "name": "@nycopportunity/pattern-modal",
   "version": "1.0.0",
   "description": "An accessible modal dialog pattern.",
   "main": "src/modal.js",

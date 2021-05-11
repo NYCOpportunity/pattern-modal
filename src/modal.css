@@ -1,5 +1,3 @@
-@import 'modal-tokens';
-
 .o-modal {
   background-color: var(--o-modal-background-color);
   z-index: var(--o-modal-z-index);
