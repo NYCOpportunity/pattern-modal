@@ -1,5 +1,5 @@
 {
-  "name": "pattern-modal",
+  "name": "@nycopportunity/pattern-modal",
   "version": "1.0.0",
   "description": "This method is a wrapper around the Patterns Scripts dialog utility which is included as a dependency of this project. The utility can be imported as an ES module and instantiated separately.",
   "main": "modal.js",
