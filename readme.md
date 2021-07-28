@@ -8,6 +8,12 @@ Additionally, scrolling can be disabled with the `data-dialog-lock="true"` attri
 
 ## Usage
 
+### Installation
+
+```shell
+$ npm install @nycopportunity/pattern-modal
+```
+
 ### ES Module
 
 This method is a wrapper around the [Patterns Scripts dialog utility](https://github.com/CityOfNewYork/patterns-scripts/tree/main/src/dialog) which is included as a dependency of this project. The utility can be imported as an ES module and instantiated.
