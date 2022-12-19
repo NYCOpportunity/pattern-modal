@@ -1,6 +1,6 @@
 {
   "name": "@nycopportunity/pattern-modal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An accessible modal dialog pattern.",
   "main": "src/modal.js",
   "repository": {
@@ -13,6 +13,10 @@
     "url": "https://github.com/NYCOpportunity/pattern-modal.git/issues"
   },
   "homepage": "https://github.com/NYCOpportunity/pattern-modal.git#readme",
+  "scripts": {
+    "version": "git add .",
+    "prepublishOnly": "git push && git push --tags"
+  },
   "dependencies": {
     "@nycopportunity/pttrn-scripts": "^1.0.4"
   }
