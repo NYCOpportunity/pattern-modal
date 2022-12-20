@@ -1,6 +1,6 @@
 {
   "name": "@nycopportunity/pattern-modal",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An accessible modal dialog pattern.",
   "main": "src/modal.js",
   "repository": {

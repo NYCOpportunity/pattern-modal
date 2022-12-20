@@ -17,6 +17,14 @@
   align-items: center;
 }
 
+.o-modal__close {
+  font-size: var(--o-modal-close-font-size);
+  font-weight: var(--o-modal-close-font-weight);
+  line-height: var(--o-modal-close-line-height);
+
+  text-align: end;
+}
+
 .o-modal__body {
   background-color: var(--o-modal-body-background-color);
   padding: calc(var(--o-modal-base-padding) * 3);
@@ -29,6 +37,7 @@
   font-size: var(--o-modal-heading-font-size);
   font-weight: var(--o-modal-heading-font-weight);
   line-height: var(--o-modal-heading-line-height);
+  margin-top: 0;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {

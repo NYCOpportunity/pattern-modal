@@ -23,17 +23,18 @@ button data-js='dialog' aria-controls='aria-c-modal' aria-expanded='false' data-
 div id='aria-c-modal' class='o-modal hidden' aria-hidden='true' role='dialog' aria-modal='true' aria-labelledby='aria-lb-modal-header' aria-describedby='aria-db-modal-body'
   div class='o-modal__layout'
     div class='o-modal__body animated fadeInUp'
-      /! { @data-js        "dialog" designates this element as a toggling element for the modal }
-      /! { @aria-controls  Targets the element that will be shown and hidden by the toggle }
-      /! { @aria-expanded  Indicates if the modal is open or not }
-      /! { @data-dialog    "close" designates this element as the primary close toggle for the modal. It will be focused on when the modal is opened. Only one close toggle associated with this aria-controls value can exist on the page }
-      /! { @tabindex       Set the tabindex to '-1' on focusable elements if this area is hidden when the page is rendered }
-      button class='o-modal__dismiss link-icon' data-js='dialog' aria-controls='aria-c-modal' data-dialog='close' aria-expanded='false' tabindex='-1'
-        /! { @tabindex  Set the tabindex to '-1' on focusable elements if this area is hidden when the page is rendered }
-        svg class='icon-ui' tabindex='-1'
-          use href='#lucide-x'
+      div class='o-modal__close'
+        /! { @data-js        "dialog" designates this element as a toggling element for the modal }
+        /! { @aria-controls  Targets the element that will be shown and hidden by the toggle }
+        /! { @aria-expanded  Indicates if the modal is open or not }
+        /! { @data-dialog    "close" designates this element as the primary close toggle for the modal. It will be focused on when the modal is opened. Only one close toggle associated with this aria-controls value can exist on the page }
+        /! { @tabindex       Set the tabindex to '-1' on focusable elements if this area is hidden when the page is rendered }
+        button class='o-modal__dismiss link-icon' data-js='dialog' aria-controls='aria-c-modal' data-dialog='close' aria-expanded='false' tabindex='-1'
+          /! { @tabindex  Set the tabindex to '-1' on focusable elements if this area is hidden when the page is rendered }
+          svg class='icon-ui' tabindex='-1'
+            use href='#lucide-x'
 
-        span Dismiss
+          span Dismiss
 
       /! { @id  Matches the @aria-labelledby attribute of the modal parent }
       h2 class='o-modal__heading' id='aria-lb-modal-header' = this.modal.header
