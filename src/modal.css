@@ -10,8 +10,7 @@
 }
 
 .o-modal__layout {
-  padding-left: calc(var(--o-modal-base-padding) * 2);
-  padding-right: calc(var(--o-modal-base-padding) * 2);
+  padding: calc(var(--o-modal-base-padding) * 2);
   min-height: var(--o-modal-min-height);
   display: flex;
   align-items: center;
